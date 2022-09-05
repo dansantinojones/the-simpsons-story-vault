@@ -40,6 +40,23 @@ def select():
     print("3. Lisa")
     print("4. Bart")
 
+    selection = input()
+
+    if selection == "1":
+        homer_story()
+
+    elif selection == "2":
+        marge_story()
+
+    elif selection == "3":
+        lisa_story()
+
+    elif selection == "4":
+        bart_story()
+
+    else:
+        print("Please enter valid option")
+
 
 
 introduction()
