@@ -31,4 +31,16 @@ def introduction():
     name = input("Enter your name: ")
     print(f"Welcome {name} to The Simpsons Story Vault")
 
+
+
+def select():
+    print("Please select a character from the list below...")
+    print("1. Homer")
+    print("2. Marge")
+    print("3. Lisa")
+    print("4. Bart")
+
+
+
 introduction()
+select()
