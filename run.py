@@ -1,7 +1,13 @@
-# The Simpsons Story Vault image 
-# Input name and welcome message
+
+words = {
+    "character1": ["Mr Burns", "Ned Flanders", "Milhouse", "Barney", "Krusty the Clown"],
+    "character2": ["Smithers", "Moe", "Principle Skinner", "Apu", "Cheif Wiggum"],
+}
+
 
 def introduction():
+    # The Simpsons Story Vault image 
+    # Input name and welcome message
     print("_____________________________________________________________")
     print("| |_   _| || | __| / __|| ||  \/  | _ \/ __|/ _ \| \| |/ __|  |")
     print("|   | | | _  | _|  \__ \| || |.,| |  _/\__ \ (_) | .` |\__ \  |")
