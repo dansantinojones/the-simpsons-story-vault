@@ -5,6 +5,7 @@ words = {
     "location": ["Springfield Elementary School", "Burns Manor", "Nuclear Power Plant", "Moe's Tavern", "Kwik-E-Mart"],
     "food": ["Burger", "Fried Shrimp", "Buttered Noodles", "Pork Chops", "Doghnuts"],
     "feelings": ["Happy", "Sad", "Excited", "Angry", "Nervous", "Lucky"],
+    "animal": ["Dog", "Snake", "Elephant", "Cat", "Spider Pig", "Monkey"],
 }
 
 
@@ -101,7 +102,7 @@ def marge_story():
     print("Kids we have visitors coming round for dinner so I want you back from the {location} at 6pm.")
     print("Mmm-mmmmm I hope they like the {food} I have prepared, I have spent {number} hours cooking this.")
     print("{character 1} can sit next to Bart and I think I’ll place {character 2} next to Homer.")
-    print("I hope they don’t bring their {adjective} {pet} or there won’t be enough food to go round.")
+    print("I hope they don’t bring their {adjective} {animal} or there won’t be enough food to go round.")
     print("I am so {feeling} to see them, the saddest thing is seeing a family broken apart. ")
 
 
