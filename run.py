@@ -4,6 +4,7 @@ words = {
     "character2": ["Smithers", "Moe", "Principle Skinner", "Apu", "Cheif Wiggum"],
     "location": ["Springfield Elementary School", "Burns Manor", "Nuclear Power Plant", "Moe's Tavern", "Kwik-E-Mart"],
     "food": ["Burger", "Fried Shrimp", "Buttered Noodles", "Pork Chops", "Doghnuts"],
+    "feelings": ["Happy", "Sad", "Excited", "Angry", "Nervous", "Lucky"],
 }
 
 
