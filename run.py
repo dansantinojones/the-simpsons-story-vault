@@ -34,28 +34,37 @@ def introduction():
 
 
 def select():
-    print("Please select a character from the list below...")
-    print("1. Homer")
-    print("2. Marge")
-    print("3. Lisa")
-    print("4. Bart")
+    # Displays the four story options and and exit option
+    # Options will repeat if a number outside 1-5 is selected
+    # While loop breaks if exit option (5) is selected
+    while True: 
+        print("Please select a character from the list below...")
+        print("1. Homer")
+        print("2. Marge")
+        print("3. Lisa")
+        print("4. Bart")
+        print("5. Exit")
 
-    selection = input()
+        selection = input()
 
-    if selection == "1":
-        homer_story()
+        if selection == "1":
+            homer_story()
 
-    elif selection == "2":
-        marge_story()
+        elif selection == "2":
+            marge_story()
 
-    elif selection == "3":
-        lisa_story()
+        elif selection == "3":
+            lisa_story()
 
-    elif selection == "4":
-        bart_story()
+        elif selection == "4":
+            bart_story()
 
-    else:
-        print("Please enter valid option")
+        elif selection == "5":
+            print("Goodbye")
+            break
+
+        else:
+            print("Please enter valid option")
 
 
 
