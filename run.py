@@ -107,6 +107,40 @@ def marge_story():
 
 
 
+def bart_story():
+    print("~~~~~~~~~~~~~~~ Bart Story ~~~~~~~~~~~~~~~")
+    print("            |\|\,'\,'\ ,.")
+    print("            )        ;' |,'")
+    print("           /              |,'|,.")
+    print("          /                  ` /__")
+    print("         ,'                    ,-'")
+    print("        ,'                    :")
+    print("       (_                     '")
+    print("     ,'                      ;")
+    print("     |---._ ,'     .        '")
+    print("     :   o Y---.__  ;      ;")
+    print("     /`,""-|     o`.|     /")
+    print("    ,  `._  `.    ,'     ;")
+    print("    ;         `""'      ;")
+    print("   /                   -'.")
+    print("   \                   G  )")
+    print("    `-.__________,   `._,'")
+    print("            (`   `     |)\ ")
+    print("-hrr.      / `.       ,'  \ ")
+    print("          /    `-----'     \ ")
+    print("         /")
+
+    print("Halloween in Springfield is my favourite time of year.")
+    print("Me and Lisa went trick-or-teating the minute it went dark.")
+    print("I dressed up as a scary {thing} and Lisa dressed up as {feeling} zombie.")
+    print("The first house was answered by {character 2} who gave us {food}.")
+    print("The next few houses gave us candy.")
+    print("When we reached the spooky {location} I tip-toed to the door and just as I was about to knock the door, {character 1} answered the door.")
+    print("When I realised who it was I screamed “eat my shorts!” and we ran back laughing the whole way home. ")
+
+
+
 introduction()
 select()
 marge_story()
+bart_story()
