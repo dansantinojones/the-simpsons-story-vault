@@ -2,7 +2,8 @@
 words = {
     "character1": ["Mr Burns", "Ned Flanders", "Milhouse", "Barney", "Krusty the Clown"],
     "character2": ["Smithers", "Moe", "Principle Skinner", "Apu", "Cheif Wiggum"],
-    "location": ["Springfield Elementary School", "Burns Manor", "Nuclear Power Plant", "Moe's Tavern", "Kwik-E-Mart"]
+    "location": ["Springfield Elementary School", "Burns Manor", "Nuclear Power Plant", "Moe's Tavern", "Kwik-E-Mart"],
+    "food": ["Burger", "Fried Shrimp", "Buttered Noodles", "Pork Chops", "Doghnuts"],
 }
 
 
