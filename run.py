@@ -76,5 +76,35 @@ def select():
 
 
 
+def marge_story():
+    print("~~~~~~~~~~~~~~~ Marge Story ~~~~~~~~~~~~~~~")
+    print("        (                          )")
+    print("         \                        /")
+    print("        ,' ,__,___,__,-._         )")
+    print("        )-' ,    ,  , , (        /")
+    print("-hrr-   ;''-^-.,-'''''\' \       )")
+    print("       (      (        ) /  __  /")
+    print("        \o,----.  o  _,'( ,.^. \ ")
+    print("        ,'`.__  `---'    `\ \ \ \_")
+    print(" ,.,. ,'                   \    ' )")
+    print(" \ \ \\__  ,------------.  /     /")
+    print("( \ \ \( `---.-`-^--,-,--\:     :")
+    print(" \       (   (''''''`----'|     :")
+    print("  \   `.  \   `.          |      \ ")
+    print("   \   ;  ;     )      __ _\      \ ")
+    print("   /     /    ,-.,-.''Y  Y  \      `. ")
+    print("  /     :    ,`-'`-'`-'`-'`-'\       `. ")
+    print(" /      ;  ,'  /              \        ` ")
+    print("/      / ,'   /                \ ")
+
+    print("Kids we have visitors coming round for dinner so I want you back from the {location} at 6pm.")
+    print("Mmm-mmmmm I hope they like the {food} I have prepared, I have spent {number} hours cooking this.")
+    print("{character 1} can sit next to Bart and I think I’ll place {character 2} next to Homer.")
+    print("I hope they don’t bring their {adjective} {pet} or there won’t be enough food to go round.")
+    print("I am so {feeling} to see them, the saddest thing is seeing a family broken apart. ")
+
+
+
 introduction()
 select()
+marge_story()
