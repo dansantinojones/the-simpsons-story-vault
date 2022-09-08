@@ -6,6 +6,7 @@ words = {
     "food": ["Burger", "Fried Shrimp", "Buttered Noodles", "Pork Chops", "Doghnuts"],
     "feelings": ["Happy", "Sad", "Excited", "Angry", "Nervous", "Lucky"],
     "animal": ["Dog", "Snake", "Elephant", "Cat", "Spider Pig", "Monkey"],
+    "colour": ["Red", "Blue", "Yellow", "Green", "Purple"],
 }
 
 
