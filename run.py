@@ -78,6 +78,33 @@ def select():
 
 
 
+def homer_story():
+    print("~~~~~~~~~~~~~~~ Homer Story ~~~~~~~~~~~~~~~")
+    print("     ,---. ")
+    print("   ,.'-.   \ ")
+    print("  ( ( ,''''''-. ")
+    print("  `,X          `. ")
+    print("  /` `           `._ ")
+    print(" (            ,   ,_\ ")
+    print(" |          ,---.,'  `. ")
+    print(" |         /     \   o  ) ")
+    print("  \ ,.    (   o   .____, ")
+    print("   \| \    \____,'     \ ")
+    print(" '`'\  \        _,____,' ")
+    print(" \  ,--      ,-'     \ ")
+    print("   ( C     ,'         \ ")
+    print("    `--'  .'           | ")
+    print("      |   |         .O | ")
+    print("    __|    \        ,-'_ ")
+    print("   / `L     `._  _,'  ' `. ")
+    print("  /    `--.._  `',.   _\  ` ")
+    print("  `-.       /\  | `. ( ,\  \ ")
+    print(" _/  `-._  /  \ |--'  (     \ ")
+    print("'  `-.   `'    \/\`.   `.    ) ")
+    print("      \  -hrr-    \ `.  |    | ")
+
+
+
 def marge_story():
     print("~~~~~~~~~~~~~~~ Marge Story ~~~~~~~~~~~~~~~")
     print("        (                          )")
