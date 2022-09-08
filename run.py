@@ -52,7 +52,7 @@ def select():
         print("1. Homer")
         print("2. Marge")
         print("3. Lisa")
-        print("4. Bart")
+        print("4. Bart\n")
         print("5. Exit")
 
         selection = input()
@@ -132,9 +132,9 @@ def bart_story():
 
     print("Halloween in Springfield is my favourite time of year.")
     print("Me and Lisa went trick-or-teating the minute it went dark.")
-    print("I dressed up as a scary {thing} and Lisa dressed up as {feeling} zombie.")
+    print("I dressed up as a scary {thing} and Lisa dressed up as {colour} zombie.")
     print("The first house was answered by {character 2} who gave us {food}.")
-    print("The next few houses gave us candy.")
+    print("The next few houses gave us candy, we had {number} in total.")
     print("When we reached the spooky {location} I tip-toed to the door and just as I was about to knock the door, {character 1} answered the door.")
     print("When I realised who it was I screamed “eat my shorts!” and we ran back laughing the whole way home. ")
 
