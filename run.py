@@ -107,6 +107,32 @@ def marge_story():
 
 
 
+def lisa_story():
+    print("~~~~~~~~~~~~~~~ Lisa Story ~~~~~~~~~~~~~~~")
+    print("      /\  /\ ") 
+    print("  _ _/  \/  \_ _") 
+    print(" |             /") 
+    print(" :            /_") 
+    print(" /     \_| \_| /")
+    print("/     \/  \/  \/") 
+    print("\     (o   )o  )")
+    print(" | \_  ,     -'")
+    print(" :_ | '\_______)")
+    print("   ||       _)") 
+    print("    :      :") 
+    print("    |      |") 
+    print("    oooooooo") 
+    print("   /        \ ") 
+
+    print("Today my school teacher, Mrs {food}, announced that instead of studying {subject} today, we are going on a class field trip to {location}")
+    print("Instead of going on the school bus we are travelling by {transport}.")
+    print("On the way there we did our English lessons: she read a poem about {thing} by {character2}.")
+    print("When we finally arrived our tour guide {character1} showed us around.")
+    print("We learned how to {verb} and got to sketch pictures of {thing}.")
+
+
+
+
 def bart_story():
     print("~~~~~~~~~~~~~~~ Bart Story ~~~~~~~~~~~~~~~")
     print("            |\|\,'\,'\ ,.")
@@ -143,4 +169,5 @@ def bart_story():
 introduction()
 select()
 marge_story()
+lisa_story()
 bart_story()
