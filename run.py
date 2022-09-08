@@ -8,6 +8,7 @@ words = {
     "animal": ["Dog", "Snake", "Elephant", "Cat", "Spider Pig", "Monkey"],
     "colour": ["Red", "Blue", "Yellow", "Green", "Purple"],
     "transport": ["Car", "Truck", "Train", "Horse & Carriage", "Airplane"],
+    "subject": ["History", "Art", "Geography", "Music", "Physics"],
 }
 
 
