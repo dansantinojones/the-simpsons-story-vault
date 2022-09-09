@@ -33,3 +33,19 @@ I decided to create a story generator game for children with a theme to help chi
 1. As a new visitor, I want to navigate the terminal with ease.
 2. As a visitor, I want to exit the program after finishing playing. 
 3. As a visitor, I want to create and read stories based on The Simpsons. 
+
+## The Skeleton
+The program had only one page in the terminal. The terminal game is not responsive to users. As it is only one page I used a flow chart instead of wireframes. 
+
+## The Scope
+To achieve my goal, I included the following features:
+
+### Features:
+1. A welcome message with input name field. 
+2. Four stories based on the main characters in The Simpsons.
+3. A list of words (foods, animals, adjectives etc) for the user to select which are then returned into the stories.
+4. The user can exit the game.
+
+### Things to implement: 
+* Three stories per character.
+* More words in the dictionary for the user to choose from.
