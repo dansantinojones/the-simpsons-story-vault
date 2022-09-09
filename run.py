@@ -114,6 +114,17 @@ def homer_story():
     print("      \  -hrr-    \ `.  |    | ")
 
 
+    print("I was woken up to a call from {celebrity} saying I have won {number} hundred dollars on the lottery")
+    print("But I don’t do the lottery")
+    print("Oh well free money woo hoo!")
+    print("When I first went down for breakfast my favourite {food} was replaced by {objects} 'Hmmm strange'.")
+    print("D’oh my toothpaste had been replaced with {liquid}.")
+    print("After putting on my clothes I received another call from {character1} telling me I had the day off from work woo hoo!")
+    print("I then heard a familiar laugh… it was Bart, he shouted 'April fools!!!'")
+    print("I screamed 'why you little!' before choking him")
+    print("Boy did I feel {emotion}")
+
+
 
 def marge_story():
     print("~~~~~~~~~~~~~~~ Marge Story ~~~~~~~~~~~~~~~")
