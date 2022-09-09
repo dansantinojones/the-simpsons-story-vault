@@ -4,7 +4,7 @@ words = {
     "character2": ["Smithers", "Moe", "Principle Skinner", "Apu", "Cheif Wiggum"],
     "location": ["Springfield Elementary School", "Burns Manor", "Nuclear Power Plant", "Moe's Tavern", "Kwik-E-Mart"],
     "food": ["Burger", "Fried Shrimp", "Buttered Noodles", "Pork Chops", "Doghnuts"],
-    "feelings": ["Happy", "Sad", "Excited", "Angry", "Nervous", "Lucky"],
+    "emotion": ["Happy", "Sad", "Excited", "Angry", "Nervous",],
     "animal": ["Dog", "Snake", "Elephant", "Cat", "Spider Pig", "Monkey"],
     "colour": ["Red", "Blue", "Yellow", "Green", "Purple"],
     "transport": ["Car", "Truck", "Train", "Horse & Carriage", "Airplane"],
@@ -121,7 +121,7 @@ def homer_story():
     print(f"D’oh my toothpaste had been replaced with {liquid}. After putting on my clothes I received another call,")
     print(f"this time from {character1} telling me I had the day off from work woo hoo! I then heard a familiar laugh…")
     print(" it was Bart, he shouted 'April fools!!!' I screamed 'why you little!' before choking him.")
-    print(f"Boy did I feel {feelings}")
+    print(f"Boy did I feel {emotion}")
 
 
 
@@ -146,16 +146,16 @@ def marge_story():
     print(" /      ;  ,'  /              \        ` ")
     print("/      / ,'   /                \ ")
 
-    print("Kids we have visitors coming round for dinner so I want you back from the {location} at 6pm.")
-    print("Mmm-mmmmm I hope they like the {food} I have prepared, I have spent {number} hours cooking this.")
-    print("{character 1} can sit next to Bart and I think I’ll place {character 2} next to Homer.")
-    print("I hope they don’t bring their {adjective} {animal} or there won’t be enough food to go round.")
-    print("I am so {feeling} to see them, the saddest thing is seeing a family broken apart. ")
+    print(f"Kids we have visitors coming round for dinner so I want you back from the {location} at 6pm.")
+    print(f"Mmm-mmmmm I hope they like the {food} I have prepared, I have spent {number} hours cooking this.")
+    print(f"{character1} can sit next to Bart and I think I’ll place {character2} next to Homer.")
+    print(f"I hope they don’t bring their {adjective} {animal} or there won’t be enough food to go round.")
+    print(f"I am so {emotion} to see them, the saddest thing is seeing a family broken apart. ")
 
 
 
 def lisa_story():
-    print("~~~~~~~ Lisa Story ~~~~4~~~")
+    print("~~~~~~~ Lisa Story ~~~~~~~~")
     print("         /\    /\ ")
     print("        /  \  /  \ ")
     print("    __ /    \/    \__ __ ")
@@ -174,11 +174,11 @@ def lisa_story():
     print("       ooooooooooo ") 
     print("      /           \ ") 
 
-    print("Today my school teacher, Mrs {food}, announced that instead of studying {subject} today, we are going on a class field trip to {location}")
-    print("Instead of going on the school bus we are travelling by {transport}.")
-    print("On the way there we did our English lessons: she read a poem about {thing} by {character2}.")
-    print("When we finally arrived our tour guide {character1} showed us around.")
-    print("We learned how to {verb} and got to sketch pictures of {thing}.")
+    print(f"Today my school teacher, Mrs {food}, announced that instead of studying")
+    print(f"{subject} today, we are going on a class field trip to {location}. Instead of going on the")
+    print(f"school bus we are travelling by {transport}. On the way there we did our English lessons, ")
+    print(f"she read a poem about {thing2} by {character2}. When we finally arrived our tour ")
+    print(f"guide {character1} showed us around. We learned how to {activity} and got to sketch pictures of {thing1}.")
 
 
 
@@ -206,13 +206,12 @@ def bart_story():
     print("          /    `-----'     \ ")
     print("         /")
 
-    print("Halloween in Springfield is my favourite time of year.")
-    print("Me and Lisa went trick-or-teating the minute it went dark.")
-    print("I dressed up as a scary {thing} and Lisa dressed up as {colour} zombie.")
-    print("The first house was answered by {character 2} who gave us {food}.")
-    print("The next few houses gave us candy, we had {number} in total.")
-    print("When we reached the spooky {location} I tip-toed to the door and just as I was about to knock the door, {character 1} answered the door.")
-    print("When I realised who it was I screamed “eat my shorts!” and we ran back laughing the whole way home. ")
+    print("Halloween in Springfield is my favourite time of year. Me and Lisa went trick-or-teating as it went dark.")
+    print(f"I dressed up as a scary {thing2} and Lisa dressed up as {colour} zombie. The first house was answered by ")
+    print(f"{character2} who gave us {food}. The next few houses gave us candy, we had {number} in total.")
+    print(f"When we reached the spooky {location} I tip-toed to the door and just as I was about to knock the door, ")
+    print(f"{character1} answered the door. When I realised who it was I screamed “eat my shorts!”")
+    print("and we ran back laughing the whole way home.")
 
 
 
