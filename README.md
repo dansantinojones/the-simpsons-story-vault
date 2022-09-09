@@ -1,31 +1,35 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Simpsons Story Vault
 
-Welcome dansantinojones,
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+The Simpson Story Vault is a terminal based story generator with a Simpsons theme. The user selects pre processed words provided in the terminal and a story is created using the words of their choice. The game will continue to play until the user decides to exit.
 
-## Reminders
+## Story Vault
+Story vaults are used to help children with their English language and literature. The benefit of these are to teach children how to construct stories using an array of grammar. Second benefit for children is it improves their reading skills. The use of a popular cartoon makes learning fun!
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+## Who are The Simpsons?
+The Simpsons is an American animated sitcom that was first aired in 1989. The show is still airing today after 728 episodes and counting. The main characters are the Simpson family who live in a fictional town called Springfield. Although the family is dysfunctional, many episodes examine their relationship and bonds with each other and they often shown to care about one another. The show includes quirky supporting characters. All characters have unique characteristics and sayings which make them very compelling. 
 
-## Creating the Heroku app
+# UX
+I decided to create a story generator game for children with a theme to help children learn whilst having fun.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+## Target Audience 
+* Children age 10+
+* Adults who are a fan of The Simpsons 
 
-1. `heroku/python`
-2. `heroku/nodejs`
+* People who are learning English 
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## The game will help users to:
+* Manipulate data
+* Navigate through the terminal 
+* Test their reading and writing skills 
+* Provide entertainment
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+## Owner Stories
+1. As the owner, I want the application to be fun and light hearted for to user.
+2. As the owner, I want the game to encourage reading and writing skills
+3. As the owner, I want to display my newly learned skills with Python.
 
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+## User Stories
+1. As a new visitor, I want to navigate the terminal with ease.
+2. As a visitor, I want to exit the program after finishing playing. 
+3. As a visitor, I want to create and read stories based on The Simpsons. 
