@@ -9,6 +9,8 @@ words = {
     "colour": ["Red", "Blue", "Yellow", "Green", "Purple"],
     "transport": ["Car", "Truck", "Train", "Horse & Carriage", "Airplane"],
     "subject": ["History", "Art", "Geography", "Music", "Physics"],
+    "activity": ["Dance", "Sing", "Ride a Bike", "Take a Selfie", "Meditate"],
+    "adjective": ["Small", "Rough", "Kind", "Ancient", "Wide"],
 }
 
 
@@ -44,9 +46,11 @@ def introduction():
     name = input("Enter your name: ")
     print(f"Welcome {name} to The Simpsons Story Vault")
 
+introduction()
 
 
-def select():
+
+def main():
     # Displays the four story options and and exit option
     # Options will repeat if a number outside 1-5 is selected
     # While loop breaks if exit option (5) is selected
@@ -199,8 +203,4 @@ def bart_story():
 
 
 
-introduction()
-select()
-marge_story()
-lisa_story()
-bart_story()
+main()
