@@ -16,6 +16,7 @@ words = {
     "number": ["3", "9", "6", "1", "4"],
     "liquid": ["water", "milk", "vinegar", "duff beer", "mustard"],
     "Celebrity": ["Donald Trump", "Johnny Depp", "Kim Kardashian", "Mark Zuckerberg", "Taylor Swift"], 
+    "objects": ["candles", "flowers", "fruit", "pencils", "Sideshow Bob bobbleheads"],
 }
 
 
