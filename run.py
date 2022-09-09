@@ -15,7 +15,7 @@ words = {
     "adjective": ["small", "rough", "kind", "ancient", "wide"],
     "number": ["3", "9", "6", "1", "4"],
     "liquid": ["water", "milk", "vinegar", "duff beer", "mustard"],
-    "Celebrity": ["Donald Trump", "Johnny Depp", "Kim Kardashian", "Mark Zuckerberg", "Taylor Swift"], 
+    "celebrity": ["Donald Trump", "Johnny Depp", "Kim Kardashian", "Mark Zuckerberg", "Taylor Swift"], 
     "objects": ["candles", "flowers", "fruit", "pencils", "Sideshow Bob bobbleheads"],
 }
 
@@ -124,25 +124,25 @@ def homer_story():
     print("      \  -hrr-    \ `.  |    | ")
 
 
-    print(f"I was woken up to a call from {celebrity} saying I have won {number} hundred dollars on the lottery")
-    print("{number} hundred dollars on the lottery... But I don’t do the lottery... Oh well free money woo hoo!")
+    print(f"I was woken up to a call from {celebrity} saying I have won {number} hundred dollars on the lottery...")
+    print("But I don’t do the lottery... Oh well free money woo hoo!")
     print(f"When I first went down for breakfast my favourite {food} was replaced by {objects} 'Hmmm strange'.")
     print(f"D’oh my toothpaste had been replaced with {liquid}. After putting on my clothes I received another call,")
     print(f"this time from {character1} telling me I had the day off from work woo hoo! I then heard a familiar laugh…")
-    print(" it was Bart, he shouted 'April fools!!!' I screamed 'why you little!' before choking him.")
+    print("it was Bart, he shouted 'April fools!!!' I screamed 'why you little!' before choking him.")
     print(f"Boy did I feel {emotion}")
 
 
 
 def marge_story():
-    location = selectItem("")
-    food = selectItem("")
-    number = selectItem("")
-    character1 = selectItem("")
-    character2 = selectItem("")
-    adjective = selectItem("")
-    animal = selectItem("")
-    emotion = selectItem("")
+    location = selectItem("location")
+    food = selectItem("food")
+    number = selectItem("number")
+    character1 = selectItem("character1")
+    character2 = selectItem("character2")
+    adjective = selectItem("adjective")
+    animal = selectItem("animal")
+    emotion = selectItem("emotion")
 
     print("~~~~~~~~~~~~~~~ Marge Story ~~~~~~~~~~~~~~~")
     print("        (                          )")
@@ -173,15 +173,15 @@ def marge_story():
 
 
 def lisa_story():
-    food = selectItem("")
-    subject = selectItem("")
-    location = selectItem("")
-    transport = selectItem("")
-    thing2 = selectItem("")
-    character2 = selectItem("")
-    character1 = selectItem("")
-    activity = selectItem("")
-    thing1 = selectItem("")
+    food = selectItem("food")
+    subject = selectItem("subject")
+    location = selectItem("location")
+    transport = selectItem("transport")
+    thing2 = selectItem("thing2")
+    character2 = selectItem("character2")
+    character1 = selectItem("character1")
+    activity = selectItem("activity")
+    thing1 = selectItem("thing1")
 
     print("~~~~~~~ Lisa Story ~~~~~~~~")
     print("         /\    /\ ")
@@ -212,13 +212,13 @@ def lisa_story():
 
 
 def bart_story():
-    thing2 = selectItem("")
-    colour = selectItem("")
-    character2 = selectItem("")
-    food = selectItem("")
-    number = selectItem("")
-    location = selectItem("")
-    character1 = selectItem("")
+    thing2 = selectItem("thing2")
+    colour = selectItem("colour")
+    character2 = selectItem("character2")
+    food = selectItem("food")
+    number = selectItem("number")
+    location = selectItem("location")
+    character1 = selectItem("character1")
 
     print("~~~~~~~~~~~~~~~ Bart Story ~~~~~~~~~~~~~~~")
     print("            |\|\,'\,'\ ,.")
