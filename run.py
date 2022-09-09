@@ -141,13 +141,6 @@ def main():
             print("-hrr-    )-.__,-- ||___,--' `-. ")
             print("        /._______,|__________,'\ ")
             print("        `--.____,'|_________,-'\n\n")
-
-            
-
-
-
-
-
             break
 
         else:
@@ -155,6 +148,7 @@ def main():
 
 
 def homer_story():
+    # Display dictionary values allowing user to choose words to create story
     celebrity = selectItem("celebrity")
     number = selectItem("number")
     food = selectItem("food")
