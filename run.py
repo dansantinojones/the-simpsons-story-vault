@@ -91,6 +91,14 @@ def main():
 
 
 def homer_story():
+    celebrity = selectItem("celebrity")
+    number = selectItem("number")
+    food = selectItem("food")
+    objects = selectItem("objects")
+    liquid = selectItem("liquid")
+    character1 = selectItem("character1")
+    emotion = selectItem("emotion")
+
     print("~~~~~~~~~~~~~~~ Homer Story ~~~~~~~~~~~~~~~")
     print("     ,---. ")
     print("   ,.'-.   \ ")
@@ -127,6 +135,15 @@ def homer_story():
 
 
 def marge_story():
+    location = selectItem("")
+    food = selectItem("")
+    number = selectItem("")
+    character1 = selectItem("")
+    character2 = selectItem("")
+    adjective = selectItem("")
+    animal = selectItem("")
+    emotion = selectItem("")
+
     print("~~~~~~~~~~~~~~~ Marge Story ~~~~~~~~~~~~~~~")
     print("        (                          )")
     print("         \                        /")
@@ -149,13 +166,23 @@ def marge_story():
 
     print(f"Kids we have visitors coming round for dinner so I want you back from the {location} at 6pm.")
     print(f"Mmm-mmmmm I hope they like the {food} I have prepared, I have spent {number} hours cooking this.")
-    print(f"{character1} can sit next to Bart and I think I’ll place {character2} next to Homer.")
+    print(f"{character1} can sit next to Bart and I think I’ll place {character2} next to Homie.")
     print(f"I hope they don’t bring their {adjective} {animal} or there won’t be enough food to go round.")
     print(f"I am so {emotion} to see them, the saddest thing is seeing a family broken apart. ")
 
 
 
 def lisa_story():
+    food = selectItem("")
+    subject = selectItem("")
+    location = selectItem("")
+    transport = selectItem("")
+    thing2 = selectItem("")
+    character2 = selectItem("")
+    character1 = selectItem("")
+    activity = selectItem("")
+    thing1 = selectItem("")
+
     print("~~~~~~~ Lisa Story ~~~~~~~~")
     print("         /\    /\ ")
     print("        /  \  /  \ ")
@@ -185,6 +212,14 @@ def lisa_story():
 
 
 def bart_story():
+    thing2 = selectItem("")
+    colour = selectItem("")
+    character2 = selectItem("")
+    food = selectItem("")
+    number = selectItem("")
+    location = selectItem("")
+    character1 = selectItem("")
+
     print("~~~~~~~~~~~~~~~ Bart Story ~~~~~~~~~~~~~~~")
     print("            |\|\,'\,'\ ,.")
     print("            )        ;' |,'")
