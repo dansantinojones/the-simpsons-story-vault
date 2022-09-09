@@ -49,8 +49,8 @@ def introduction():
     print("||__`.:(.:::::(:_)_____.)_, ___|_______(.::::(:_)____.)______||")
     print("'-------------------------------------------------------------'")
 
-    name = input("Enter your name: ")
-    print(f"Welcome {name} to The Simpsons Story Vault")
+    name = input("Enter your name: \n")
+    print(f"Welcome {name} to The Simpsons Story Vault\n")
 
 
 introduction()
@@ -87,7 +87,7 @@ def main():
     # Options will repeat if a number outside 1-5 is selected
     # While loop breaks if exit option (5) is selected
     while True:
-        print("Please select a character from the list below...")
+        print("Please select a character from the list below...\n")
         print("1. Homer")
         print("2. Marge")
         print("3. Lisa")
@@ -125,7 +125,7 @@ def homer_story():
     character1 = selectItem("character1")
     emotion = selectItem("emotion")
 
-    print("~~~~~~~~~~~~~~~ Homer Story ~~~~~~~~~~~~~~~")
+    print("\n~~~~~~~~~~~~~~~ Homer Story ~~~~~~~~~~~~~~~\n")
     print("     ,---. ")
     print("   ,.'-.   \ ")
     print("  ( ( ,''''''-. ")
@@ -147,19 +147,15 @@ def homer_story():
     print("  `-.       /\  | `. ( ,\  \ ")
     print(" _/  `-._  /  \ |--'  (     \ ")
     print("'  `-.   `'    \/\`.   `.    ) ")
-    print("      \  -hrr-    \ `.  |    | ")
+    print("      \  -hrr-    \ `.  |    | \n\n")
 
-    print(
-        f"I was woken up to a call from {celebrity} saying I have won {number} hundred dollars on the lottery...")
+    print(f"I was woken up to a call from {celebrity} saying I have won {number} hundred dollars on the lottery...")
     print("But I don’t do the lottery... Oh well free money woo hoo!")
-    print(
-        f"When I first went down for breakfast my favourite {food} was replaced by {objects} 'Hmmm strange'.")
-    print(
-        f"D’oh my toothpaste had been replaced with {liquid}. After putting on my clothes I received another call,")
-    print(
-        f"this time from {character1} telling me I had the day off from work woo hoo! I then heard a familiar laugh…")
+    print(f"When I first went down for breakfast my favourite {food} was replaced by {objects} 'Hmmm strange'.")
+    print(f"D’oh my toothpaste had been replaced with {liquid}. After putting on my clothes I received another call,")
+    print(f"this time from {character1} telling me I had the day off from work woo hoo! I then heard a familiar laugh…")
     print("it was Bart, he shouted 'April fools!!!' I screamed 'why you little!' before choking him.")
-    print(f"Boy did I feel {emotion}")
+    print(f"Boy did I feel {emotion}.\n\n")
 
 
 def marge_story():
@@ -172,7 +168,7 @@ def marge_story():
     animal = selectItem("animal")
     emotion = selectItem("emotion")
 
-    print("~~~~~~~~~~~~~~~ Marge Story ~~~~~~~~~~~~~~~")
+    print("\n~~~~~~~~~~~~~~~ Marge Story ~~~~~~~~~~~~~~~\n")
     print("        (                          )")
     print("         \                        /")
     print("        ,' ,__,___,__,-._         )")
@@ -190,17 +186,13 @@ def marge_story():
     print("   /     /    ,-.,-.''Y  Y  \      `. ")
     print("  /     :    ,`-'`-'`-'`-'`-'\       `. ")
     print(" /      ;  ,'  /              \        ` ")
-    print("/      / ,'   /                \ ")
+    print("/      / ,'   /                \ \n\n")
 
-    print(
-        f"Kids we have visitors coming round for dinner so I want you back from the {location} at 6pm.")
-    print(
-        f"Mmm-mmmmm I hope they like the {food} I have prepared, I have spent {number} hours cooking this.")
+    print(f"Kids we have visitors coming round for dinner so I want you back from the {location} at 6pm.")
+    print(f"Mmm-mmmmm I hope they like the {food} I have prepared, I have spent {number} hours cooking this.")
     print(f"{character1} can sit next to Bart and I think I’ll place {character2} next to Homie.")
-    print(
-        f"I hope they don’t bring their {adjective} {animal} or there won’t be enough food to go round.")
-    print(
-        f"I am so {emotion} to see them, the saddest thing is seeing a family broken apart. ")
+    print(f"I hope they don’t bring their {adjective} {animal} or there won’t be enough food to go round.")
+    print(f"I am so {emotion} to see them, the saddest thing is seeing a family broken apart.\n\n")
 
 
 def lisa_story():
@@ -214,7 +206,7 @@ def lisa_story():
     activity = selectItem("activity")
     thing1 = selectItem("thing1")
 
-    print("~~~~~~~ Lisa Story ~~~~~~~~")
+    print("\n~~~~~~~ Lisa Story ~~~~~~~~\n")
     print("         /\    /\ ")
     print("        /  \  /  \ ")
     print("    __ /    \/    \__ __ ")
@@ -231,7 +223,7 @@ def lisa_story():
     print("       :         : ")
     print("       |         | ")
     print("       ooooooooooo ")
-    print("      /           \ ")
+    print("      /           \ \n")
 
     print(
         f"Today my school teacher, Mrs {food}, announced that instead of studying")
@@ -240,7 +232,7 @@ def lisa_story():
         f"school bus we are travelling by {transport}. On the way there we did our English lessons, ")
     print(
         f"she read a poem about {thing2} by {character2}. When we finally arrived our tour ")
-    print(f"guide {character1} showed us around. We learned how to {activity} and got to sketch pictures of {thing1}.")
+    print(f"guide {character1} showed us around. We learned how to {activity} and got to sketch pictures of {thing1}.\n\n")
 
 
 def bart_story():
@@ -252,7 +244,7 @@ def bart_story():
     location = selectItem("location")
     character1 = selectItem("character1")
 
-    print("~~~~~~~~~~~~~~~ Bart Story ~~~~~~~~~~~~~~~")
+    print("\n~~~~~~~~~~~~~~~ Bart Story ~~~~~~~~~~~~~~~\n")
     print("            |\|\,'\,'\ ,.")
     print("            )        ;' |,'")
     print("           /              |,'|,.")
@@ -272,7 +264,7 @@ def bart_story():
     print("            (`   `     |)\ ")
     print("-hrr.      / `.       ,'  \ ")
     print("          /    `-----'     \ ")
-    print("         /")
+    print("         /\n\n")
 
     print("Halloween in Springfield is my favourite time of year. Me and Lisa went trick-or-teating as it went dark.")
     print(
@@ -281,7 +273,7 @@ def bart_story():
     print(
         f"When we reached the spooky {location} I tip-toed to the door and just as I was about to knock the door, ")
     print(f"{character1} answered the door. When I realised who it was I screamed “eat my shorts!”")
-    print("and we ran back laughing the whole way home.")
+    print("and we ran back laughing the whole way home.\n\n")
 
 
 main()
