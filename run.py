@@ -15,6 +15,7 @@ words = {
     "adjective": ["Small", "Rough", "Kind", "Ancient", "Wide"],
     "number": ["3", "9", "6", "1", "4"],
     "liquid": ["Water", "Milk", "Vinegar", "Duff Beer", "Mustard"],
+    "Celebrity": ["Donald Trump", "Johnny Depp", "Kim Kardashian", "Mark Zuckerberg", "Taylor Swift"], 
 }
 
 
