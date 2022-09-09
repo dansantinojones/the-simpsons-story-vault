@@ -9,6 +9,8 @@ words = {
     "colour": ["Red", "Blue", "Yellow", "Green", "Purple"],
     "transport": ["Car", "Truck", "Train", "Horse & Carriage", "Airplane"],
     "subject": ["History", "Art", "Geography", "Music", "Physics"],
+    "thing1": ["The Ocean", "Flowers", "Trees", "Houses", "Space"],
+    "thing2": ["Alien", "Ghost", "Cowboy", "Vampire", "Dinosaur"],
     "activity": ["Dance", "Sing", "Ride a Bike", "Take a Selfie", "Meditate"],
     "adjective": ["Small", "Rough", "Kind", "Ancient", "Wide"],
 }
