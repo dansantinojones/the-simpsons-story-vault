@@ -13,6 +13,7 @@ words = {
     "thing2": ["Alien", "Ghost", "Cowboy", "Vampire", "Dinosaur"],
     "activity": ["Dance", "Sing", "Ride a Bike", "Take a Selfie", "Meditate"],
     "adjective": ["Small", "Rough", "Kind", "Ancient", "Wide"],
+    "number": ["3", "9", "6", "1", "4"],
 }
 
 
