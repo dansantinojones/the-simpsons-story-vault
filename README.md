@@ -75,6 +75,25 @@ To align with the user stories, I wanted to ensure the design reflected the Simp
 * I continuously tested the code in the terminal in Gitpod.
 * I tested the program using the Heroku terminal to ensure the final outcome worked correctly.
 
+## Compatibility
+The program was tested across multiple browsers to ensure the program runs correctly for users to use. The program was tested on desktop and mobile. 
+* Chrome 
+* Safari (The app is visable but is not responsive)
+
+
+## Deployment
+This project was deployed using Heroku, committed to git and pushed to GitHub using git commands.
+
+To deploy this page to Heroku from GitHub repository, the following steps were taken:
+
+1. In the Heroku dashboard I selected 'New' in the top right hand corner and clicked on 'Create new app'.
+2. Then I Created the App name and Choose my region as Europe. Then selected 'Create app'
+3. Then I selected Settings tab, and scrolled down to 'Buildpacks'. Here I added 'Python' clicked saved changes and then selected 'Node.js' and saved my changes again.
+4. On top of the page I clicked on the 'Deploy' section, and I selected Github as my deployment method.
+5. Then I selected 'Connect to Github, and searched for my repository name and clicked on 'Connect' to link my Heroku app to my Github repository code.
+6. Scrolling down I have selected 'Enable Automatic Deploys' and after this I selected 'Deploy Branch' to deploy my project. I had to wait for it to build.
+7. After it has successfully deployed a 'view' button appeared which took me to my deployed app.
+
 ## Media Credits
 * [Mad Libs Game](https://www.glowwordbooks.com/blog/category/kids-online-mad-libs/) for inspiration on the stories. 
 * [ASCII Art Archive](https://www.asciiart.eu/cartoons/simpsons) for the images used.
