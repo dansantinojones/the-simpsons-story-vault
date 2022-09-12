@@ -67,6 +67,11 @@ To achieve my goal, I included the following features:
 3. As a visitor, I want to create and read stories based on The Simpsons.
 * After selection of words, a story based on one of the main Simpsons characters is generated which include the users words they have chosen. A picture of the character is displayed for visual effect. 
 
+### Additional Testing 
+* Throughout the project I used the PEP8 validator to confirm my code is bug free.
+* I continuously tested the code in the terminal in Gitpod.
+* I tested the program using the Heroku terminal to ensure the final outcome worked correctly.
+
 ## Media Credits
 * [Mad Libs Game](https://www.glowwordbooks.com/blog/category/kids-online-mad-libs/) for inspiration on the stories. 
 * [ASCII Art Archive](https://www.asciiart.eu/cartoons/simpsons) for the images used.
