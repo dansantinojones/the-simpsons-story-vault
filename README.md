@@ -50,6 +50,23 @@ To achieve my goal, I included the following features:
 * Three stories per character.
 * More words in the dictionary for the user to choose from.
 
+## Technologies Used 
+* [Gitpod](https://gitpod.io/workspaces) was used to write the code for the program. 
+* [Github](https://github.com/dansantinojones) was used to host the repository and README.
+* [Heroku](https://id.heroku.com/login) was used to host and deploy the project.
+* [PEP8](http://pep8online.com/) was used to validate my code and search for errors. 
+* [Lucid Chart](https://www.lucidchart.com/pages/) was used to plan the project flow. 
+
+## Testing
+1. As a new visitor, I want to navigate the terminal with ease.
+* After the user enters their name they are then asked to select a character using number which will determine the story.
+
+2. As a visitor, I want to exit the program after finishing playing. 
+* The user has the option to select number 5 to exit the program.
+
+3. As a visitor, I want to create and read stories based on The Simpsons.
+* After selection of words, a story based on one of the main Simpsons characters is generated which include the users words they have chosen. A picture of the character is displayed for visual effect. 
+
 ## Media Credits
 * [Mad Libs Game](https://www.glowwordbooks.com/blog/category/kids-online-mad-libs/) for inspiration on the stories. 
 * [ASCII Art Archive](https://www.asciiart.eu/cartoons/simpsons) for the images used.
