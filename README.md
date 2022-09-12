@@ -26,7 +26,7 @@ I decided to create a story generator game for children with a theme to help chi
 
 ## Owner Stories
 1. As the owner, I want the application to be fun and light hearted for to user.
-2. As the owner, I want the game to encourage reading and writing skills
+2. As the owner, I want the game to encourage reading and writing skills.
 3. As the owner, I want to display my newly learned skills with Python.
 
 ## User Stories
@@ -49,3 +49,11 @@ To achieve my goal, I included the following features:
 ### Things to implement: 
 * Three stories per character.
 * More words in the dictionary for the user to choose from.
+
+## Media Credits
+* [Mad Libs Game](https://www.glowwordbooks.com/blog/category/kids-online-mad-libs/) for inspiration on the stories. 
+* [ASCII Art Archive](https://www.asciiart.eu/cartoons/simpsons) for the images used.
+* [Simpsons Wiki](https://simpsons.fandom.com/wiki/Simpsons_Wiki) for the finer details. 
+
+## Acknowledgements
+I would like to thank my mentor Guido for his advice and support planning and executing this project. I would like to thank Mia Tothova for the initial idea and undertanding of the code required. 
