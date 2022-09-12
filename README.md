@@ -46,6 +46,9 @@ To achieve my goal, I included the following features:
 3. A list of words (foods, animals, adjectives etc) for the user to select which are then returned into the stories.
 4. The user can exit the game.
 
+## Design
+To align with the user stories, I wanted to ensure the design reflected the Simpsons theme. Therefore, images of the characters were used above the stories. Colorama was installed to change the colour of the text to yellow which ensures the program is on brand as the Simpsons are known for their yellow skin. 
+
 ### Things to implement: 
 * Three stories per character.
 * More words in the dictionary for the user to choose from.
