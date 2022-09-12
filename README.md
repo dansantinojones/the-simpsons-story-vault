@@ -1,5 +1,6 @@
 # The Simpsons Story Vault
 
+[View live project here](https://the-simpsons-story-vault.herokuapp.com/)
 
 The Simpson Story Vault is a terminal based story generator with a Simpsons theme. The user selects pre processed words provided in the terminal and a story is created using the words of their choice. The game will continue to play until the user decides to exit.
 
@@ -59,6 +60,7 @@ To align with the user stories, I wanted to ensure the design reflected the Simp
 * [Heroku](https://id.heroku.com/login) was used to host and deploy the project.
 * [PEP8](http://pep8online.com/) was used to validate my code and search for errors. 
 * [Lucid Chart](https://www.lucidchart.com/pages/) was used to plan the project flow. 
+* [Am I Responsive](https://ui.dev/amiresponsive) was used to display the program across different screen sizes. 
 
 ## Testing
 1. As a new visitor, I want to navigate the terminal with ease.
