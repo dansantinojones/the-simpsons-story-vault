@@ -1,3 +1,7 @@
+import colorama
+from colorama import Fore, Back, Style
+colorama.init()
+
 
 words = {
     "character1": ["Mr Burns", "Ned Flanders", "Milhouse", "Barney", "Krusty the Clown"],
@@ -23,6 +27,7 @@ words = {
 def introduction():
     # The Simpsons Story Vault image
     # Input name and welcome message
+    print(Fore.YELLOW)
     print("_____________________________________________________________")
     print("| |_   _| || | __| / __|| ||  \/  | _ \/ __|/ _ \| \| |/ __|  |")
     print("|   | | | _  | _|  \__ \| || |.,| |  _/\__ \ (_) | .` |\__ \  |")
