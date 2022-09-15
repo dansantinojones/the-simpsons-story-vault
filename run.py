@@ -1,8 +1,7 @@
-# import colorama
-# from colorama import Fore, Back, Style
-# colorama.init()
-
-import time 
+import time
+import colorama
+from colorama import Fore, Back, Style
+colorama.init()
 
 
 words = {
@@ -29,7 +28,7 @@ words = {
 def introduction():
     # The Simpsons Story Vault image
     # Input name and welcome message
-    # print(Fore.YELLOW)
+    print(Fore.YELLOW)
     print("_____________________________________________________________")
     print("| |_   _| || | __| / __|| ||  \/  | _ \/ __|/ _ \| \| |/ __|  |")
     print("|   | | | _  | _|  \__ \| || |.,| |  _/\__ \ (_) | .` |\__ \  |")
@@ -210,7 +209,7 @@ def homer_story():
 
     time.sleep(1)
 
-    print(f"I was woken up to a call from {celebrity} saying I ") 
+    print(f"I was woken up to a call from {celebrity} saying I ")
     print(f"have won {number} hundred dollars on the lottery... ")
     print(f"But I don’t do the lottery... Oh well free money woo hoo!")
     print(f"When I first went down for breakfast my favourite ")
@@ -275,7 +274,7 @@ def marge_story():
     print(f"I want you back from the {location} at 6pm.")
     print(f"Mmm-mmmmm I hope they like the {food} I have prepared,")
     print(f"I have spent {number} hours cooking this.")
-    print(f"{character1} can sit next to Bart and I think I’ll") 
+    print(f"{character1} can sit next to Bart and I think I’ll")
     print(f"place {character2} next to Homie.")
     print(f"I hope they don’t bring their {adjective} {animal}")
     print(f"or there won’t be enough food to go round.")
@@ -331,13 +330,13 @@ def lisa_story():
 
     time.sleep(1)
 
-    print(f"Today my school teacher, Mrs {colour},") 
+    print(f"Today my school teacher, Mrs {colour},")
     print(f"announced that instead of studying {subject} today,")
     print(f"we are going on a class field trip to")
     print(f"{location}. Instead of going on the")
     print(f"school bus we are travelling by {transport}.")
     print(f"On the way there we did our English lessons, she read")
-    print(f"a poem about {thing2} by {character2}.") 
+    print(f"a poem about {thing2} by {character2}.")
     print(f"When we finally arrived our tour guide")
     print(f"{character1} showed us around. ")
     print(f"We learned how to {activity} and got to ")
@@ -397,11 +396,11 @@ def bart_story():
     print(f"Lisa dressed up as {colour} zombie. ")
     print(f"The first house was answered by ")
     print(f"{character2} who gave us {food}. ")
-    print(f"The next few houses gave us candy, we had {number}") 
+    print(f"The next few houses gave us candy, we had {number}")
     print(f"in total. When we reached the spooky")
     print(f"{location} I tip-toed ")
     print(f"to the door and just as I was about to knock the door, ")
-    print(f"{character1} answered the door. When I realised who") 
+    print(f"{character1} answered the door. When I realised who")
     print(f"it was I screamed “eat my shorts!”")
     print("and we ran back laughing the whole way home.\n\n")
 
