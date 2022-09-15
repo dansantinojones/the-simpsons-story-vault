@@ -55,6 +55,8 @@ To achieve my goal, I included the following features:
 ## Design
 To align with the user stories, I wanted to ensure the design reflected the Simpsons theme. Therefore, images of the characters were used above the stories. Colorama was installed to change the colour of the text to yellow which ensures the program is on brand as the Simpsons are known for their yellow skin. 
 
+For a better user experience, I imported time. This allows me to add a time break to control how quick the content appears in the terminal. The time.sleep(10) after the story means that once the story has loaded 10 seconds will pass before the next section appears, giving the user time to read the story.
+
 ### Things to implement: 
 * Three stories per character.
 * More words in the dictionary for the user to choose from.
@@ -105,6 +107,10 @@ The program was tested across multiple browsers to ensure the program runs corre
 After running my code through the PEP8 Validator, it returned 6 errors. The errors indicated that some lines in the dictionary were too long. 
 
 ![PEP8 Validator Errors](assets/images/validator.png)
+
+Once the lists in the dictionary were shortened, I then run the code through the validator again. This time the code passed without any errors.  
+
+![PEP8 Validator Pass](assets/images/validator-pass.png)
 
 ## Deployment
 This project was deployed using Heroku, committed to git and pushed to GitHub using git commands.
