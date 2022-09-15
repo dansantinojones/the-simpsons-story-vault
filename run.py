@@ -1,6 +1,6 @@
-import colorama
-from colorama import Fore, Back, Style
-colorama.init()
+# import colorama
+# from colorama import Fore, Back, Style
+# colorama.init()
 
 import time 
 
@@ -29,7 +29,7 @@ words = {
 def introduction():
     # The Simpsons Story Vault image
     # Input name and welcome message
-    print(Fore.YELLOW)
+    # print(Fore.YELLOW)
     print("_____________________________________________________________")
     print("| |_   _| || | __| / __|| ||  \/  | _ \/ __|/ _ \| \| |/ __|  |")
     print("|   | | | _  | _|  \__ \| || |.,| |  _/\__ \ (_) | .` |\__ \  |")
@@ -96,6 +96,7 @@ def main():
     # Options will repeat if a number outside 1-5 is selected
     # While loop breaks if exit option (5) is selected
     while True:
+        time.sleep(1)
         print("Please select a character from the list below...\n")
         print("1. Homer")
         print("2. Marge")
@@ -118,6 +119,7 @@ def main():
             bart_story()
 
         elif selection == "5":
+            time.sleep(1)
             print("                            . .  ,  , ")
             print("                            |` \/ \/ \,', ")
             print("                            ;          ` \/\,. ")
@@ -151,6 +153,8 @@ def main():
             print("        /._______,|__________,'\ ")
             print("        `--.____,'|_________,-'\n\n")
 
+            time.sleep(1)
+
             print("Click 'Run Program' button above terminal to restart.")
             break
 
@@ -160,19 +164,26 @@ def main():
 
 def homer_story():
     # Display dictionary values allowing user to choose words to create story
+    time.sleep(0.5)
     celebrity = selectItem("celebrity")
+    time.sleep(0.5)
     number = selectItem("number")
+    time.sleep(0.5)
     food = selectItem("food")
+    time.sleep(0.5)
     objects = selectItem("objects")
+    time.sleep(0.5)
     liquid = selectItem("liquid")
+    time.sleep(0.5)
     character1 = selectItem("character1")
+    time.sleep(0.5)
     emotion = selectItem("emotion")
 
-    time.sleep(5)
+    time.sleep(1)
 
     print("\n~~~~~~~~~~~~~~~ Homer Story ~~~~~~~~~~~~~~~\n")
 
-    time.sleep(2)
+    time.sleep(1.5)
 
     print("     ,---. ")
     print("   ,.'-.   \ ")
@@ -197,7 +208,7 @@ def homer_story():
     print("'  `-.   `'    \/\`.   `.    ) ")
     print("      \  -hrr-    \ `.  |    | \n\n")
 
-        time.sleep(2)
+    time.sleep(1)
 
     print(f"I was woken up to a call from {celebrity} saying I ") 
     print(f"have won {number} hundred dollars on the lottery... ")
@@ -212,20 +223,33 @@ def homer_story():
     print(f"I screamed 'why you little!' before choking him.")
     print(f"Boy did I feel {emotion}.\n\n")
 
-    time.sleep(5)
+    time.sleep(10)
 
 
 def marge_story():
+    time.sleep(0.5)
     location = selectItem("location")
+    time.sleep(0.5)
     food = selectItem("food")
+    time.sleep(0.5)
     number = selectItem("number")
+    time.sleep(0.5)
     character1 = selectItem("character1")
+    time.sleep(0.5)
     character2 = selectItem("character2")
+    time.sleep(0.5)
     adjective = selectItem("adjective")
+    time.sleep(0.5)
     animal = selectItem("animal")
+    time.sleep(0.5)
     emotion = selectItem("emotion")
 
+    time.sleep(1)
+
     print("\n~~~~~~~~~~~~~~~ Marge Story ~~~~~~~~~~~~~~~\n")
+
+    time.sleep(1.5)
+
     print("        (                          )")
     print("         \                        /")
     print("        ,' ,__,___,__,-._         )")
@@ -245,6 +269,8 @@ def marge_story():
     print(" /      ;  ,'  /              \        ` ")
     print("/      / ,'   /                \ \n\n")
 
+    time.sleep(1)
+
     print(f"Kids we have visitors coming round for dinner so")
     print(f"I want you back from the {location} at 6pm.")
     print(f"Mmm-mmmmm I hope they like the {food} I have prepared,")
@@ -256,19 +282,35 @@ def marge_story():
     print(f"I am so {emotion} to see them, the saddest thing")
     print(f"is seeing a family broken apart.\n\n")
 
+    time.sleep(10)
+
 
 def lisa_story():
-    food = selectItem("food")
+    time.sleep(0.5)
+    colour = selectItem("colour")
+    time.sleep(0.5)
     subject = selectItem("subject")
+    time.sleep(0.5)
     location = selectItem("location")
+    time.sleep(0.5)
     transport = selectItem("transport")
+    time.sleep(0.5)
     thing2 = selectItem("thing2")
+    time.sleep(0.5)
     character2 = selectItem("character2")
+    time.sleep(0.5)
     character1 = selectItem("character1")
+    time.sleep(0.5)
     activity = selectItem("activity")
+    time.sleep(0.5)
     thing1 = selectItem("thing1")
 
+    time.sleep(1)
+
     print("\n~~~~~~~ Lisa Story ~~~~~~~~\n")
+
+    time.sleep(1.5)
+
     print("         /\    /\ ")
     print("        /  \  /  \ ")
     print("    __ /    \/    \__ __ ")
@@ -287,6 +329,8 @@ def lisa_story():
     print("       ooooooooooo ")
     print("      /           \ \n")
 
+    time.sleep(1)
+
     print(f"Today my school teacher, Mrs {colour},") 
     print(f"announced that instead of studying {subject} today,")
     print(f"we are going on a class field trip to")
@@ -299,17 +343,31 @@ def lisa_story():
     print(f"We learned how to {activity} and got to ")
     print(f"sketch pictures of {thing1}.\n\n")
 
+    time.sleep(10)
+
 
 def bart_story():
+    time.sleep(0.5)
     thing2 = selectItem("thing2")
+    time.sleep(0.5)
     colour = selectItem("colour")
+    time.sleep(0.5)
     character2 = selectItem("character2")
+    time.sleep(0.5)
     food = selectItem("food")
+    time.sleep(0.5)
     number = selectItem("number")
+    time.sleep(0.5)
     location = selectItem("location")
+    time.sleep(0.5)
     character1 = selectItem("character1")
 
+    time.sleep(1)
+
     print("\n~~~~~~~~~~~~~~~ Bart Story ~~~~~~~~~~~~~~~\n")
+
+    time.sleep(1.5)
+
     print("            |\|\,'\,'\ ,.")
     print("            )        ;' |,'")
     print("           /              |,'|,.")
@@ -331,6 +389,8 @@ def bart_story():
     print("          /    `-----'     \ ")
     print("         /\n\n")
 
+    time.sleep(1)
+
     print(f"Halloween in Springfield is my favourite time of year.")
     print(f"Me and Lisa went trick-or-teating as it went dark.")
     print(f"I dressed up as a scary {thing2} and ")
@@ -344,6 +404,8 @@ def bart_story():
     print(f"{character1} answered the door. When I realised who") 
     print(f"it was I screamed “eat my shorts!”")
     print("and we ran back laughing the whole way home.\n\n")
+
+    time.sleep(10)
 
 
 main()
