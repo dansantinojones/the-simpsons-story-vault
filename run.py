@@ -2,6 +2,8 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init()
 
+import time 
+
 
 words = {
     "character1": ["Mr Burns", "Ned Flanders", "Milhouse", "Barney", "Krusty the Clown"],
@@ -53,6 +55,8 @@ def introduction():
     print("||   ,':`.____.;:.____.' `.    |       `.____.;:.____.'      ||")
     print("||__`.:(.:::::(:_)_____.)_, ___|_______(.::::(:_)____.)______||")
     print("'-------------------------------------------------------------'")
+
+    time.sleep(2)
 
     name = input("Enter your name: \n")
     print(f"Welcome {name} to The Simpsons Story Vault\n")
@@ -164,7 +168,12 @@ def homer_story():
     character1 = selectItem("character1")
     emotion = selectItem("emotion")
 
+    time.sleep(5)
+
     print("\n~~~~~~~~~~~~~~~ Homer Story ~~~~~~~~~~~~~~~\n")
+
+    time.sleep(2)
+
     print("     ,---. ")
     print("   ,.'-.   \ ")
     print("  ( ( ,''''''-. ")
@@ -188,6 +197,8 @@ def homer_story():
     print("'  `-.   `'    \/\`.   `.    ) ")
     print("      \  -hrr-    \ `.  |    | \n\n")
 
+        time.sleep(2)
+
     print(f"I was woken up to a call from {celebrity} saying I ") 
     print(f"have won {number} hundred dollars on the lottery... ")
     print(f"But I don’t do the lottery... Oh well free money woo hoo!")
@@ -200,6 +211,8 @@ def homer_story():
     print("It was Bart, he shouted 'April fools!!!' ")
     print(f"I screamed 'why you little!' before choking him.")
     print(f"Boy did I feel {emotion}.\n\n")
+
+    time.sleep(5)
 
 
 def marge_story():
@@ -274,7 +287,7 @@ def lisa_story():
     print("       ooooooooooo ")
     print("      /           \ \n")
 
-    print(f"Today my school teacher, Mrs {food},") 
+    print(f"Today my school teacher, Mrs {colour},") 
     print(f"announced that instead of studying {subject} today,")
     print(f"we are going on a class field trip to")
     print(f"{location}. Instead of going on the")
