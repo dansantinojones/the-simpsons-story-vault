@@ -1,5 +1,7 @@
 # The Simpsons Story Vault
 
+![Am I Responsive Image](assets/images/am-i-responsive.png)
+
 [View live project here](https://the-simpsons-story-vault.herokuapp.com/)
 
 The Simpson Story Vault is a terminal based story generator with a Simpsons theme. The user selects pre processed words provided in the terminal and a story is created using the words of their choice. The game will continue to play until the user decides to exit.
@@ -38,6 +40,8 @@ I decided to create a story generator game for children with a theme to help chi
 ## The Skeleton
 The program had only one page in the terminal. The terminal game is not responsive to users. As it is only one page I used a flow chart instead of wireframes. 
 
+![Flow Chart](assets/images/flow-chart.png)
+
 ## The Scope
 To achieve my goal, I included the following features:
 
@@ -66,11 +70,20 @@ To align with the user stories, I wanted to ensure the design reflected the Simp
 1. As a new visitor, I want to navigate the terminal with ease.
 * After the user enters their name they are then asked to select a character using number which will determine the story.
 
+![Introduction Image](assets/images/intro-1.png)
+![Introduction Message](assets/images/intro-2.png)
+
 2. As a visitor, I want to exit the program after finishing playing. 
 * The user has the option to select number 5 to exit the program.
 
+![Exit Image](assets/images/exit-1.png)
+![Exit Message](assets/images/exit-2.png)
+
 3. As a visitor, I want to create and read stories based on The Simpsons.
 * After selection of words, a story based on one of the main Simpsons characters is generated which include the users words they have chosen. A picture of the character is displayed for visual effect. 
+
+![Story Image](assets/images/story-1.png)
+![Story](assets/images/story-2.png)
 
 ### Additional Testing 
 * Throughout the project I used the PEP8 validator to confirm my code is bug free.
