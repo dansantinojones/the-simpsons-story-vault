@@ -147,7 +147,7 @@ def main():
             print("        /._______,|__________,'\ ")
             print("        `--.____,'|_________,-'\n\n")
 
-            print(Click 'Run Program' button to restart.)
+            print("Click 'Run Program' button above terminal to restart.")
             break
 
         else:
