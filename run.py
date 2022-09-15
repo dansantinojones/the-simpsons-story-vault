@@ -186,12 +186,12 @@ def homer_story():
     print("'  `-.   `'    \/\`.   `.    ) ")
     print("      \  -hrr-    \ `.  |    | \n\n")
 
-    print(f"I was woken up to a call from {celebrity} saying I have won {number} hundred dollars on the lottery...")
-    print("But I don’t do the lottery... Oh well free money woo hoo!")
+    print(f"I was woken up to a call from {celebrity} saying I have won {number} hundred")
+    print(f"dollars on the lottery... But I don’t do the lottery... Oh well free money woo hoo!")
     print(f"When I first went down for breakfast my favourite {food} was replaced by {objects} 'Hmmm strange'.")
     print(f"D’oh my toothpaste had been replaced with {liquid}. After putting on my clothes I received another call,")
     print(f"this time from {character1} telling me I had the day off from work woo hoo! I then heard a familiar laugh…")
-    print("it was Bart, he shouted 'April fools!!!' I screamed 'why you little!' before choking him.")
+    print("It was Bart, he shouted 'April fools!!!' I screamed 'why you little!' before choking him.")
     print(f"Boy did I feel {emotion}.\n\n")
 
 
