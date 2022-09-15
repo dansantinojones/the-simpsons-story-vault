@@ -5,10 +5,19 @@ colorama.init()
 
 
 words = {
-    "character1": ["Mr Burns", "Ned Flanders", "Milhouse", "Barney", "Krusty the Clown"],
-    "character2": ["Smithers", "Moe", "Principle Skinner", "Apu", "Cheif Wiggum"],
-    "location": ["Springfield Elementary School", "Burns Manor", "Nuclear Power Plant", "Moe's Tavern", "Kwik-E-Mart"],
-    "food": ["burger", "fried shrimp", "buttered noodles", "pork chops", "doghnuts"],
+    "character1": [
+        "Mr Burns", "Ned Flanders", "Milhouse", "Barney", "Krusty the Clown"
+    ],
+    "character2": [
+        "Smithers", "Moe", "Principle Skinner", "Apu", "Cheif Wiggum"
+    ],
+    "location": [
+        "Springfield Elementary School", "Burns Manor",
+        "Nuclear Power Plant", "Moe's Tavern", "Kwik-E-Mart"
+    ],
+    "food": [
+        "burger", "fried shrimp", "buttered noodles", "pork chops", "doghnuts"
+    ],
     "emotion": ["happy", "sad", "excited", "angry", "nervous", ],
     "animal": ["dog", "snake", "cat", "spider pig", "monkey"],
     "colour": ["red", "blue", "yellow", "green", "purple"],
@@ -20,8 +29,13 @@ words = {
     "adjective": ["small", "rough", "kind", "ancient", "wide"],
     "number": ["3", "9", "6", "1", "4"],
     "liquid": ["water", "milk", "vinegar", "duff beer", "mustard"],
-    "celebrity": ["Donald Trump", "Johnny Depp", "Kim Kardashian", "Mark Zuckerberg", "Taylor Swift"],
-    "objects": ["candles", "flowers", "fruit", "pencils", "Sideshow Bob bobbleheads"],
+    "celebrity": [
+        "Donald Trump", "Johnny Depp", "Kim Kardashian",
+        "Mark Zuckerberg", "Taylor Swift"
+    ],
+    "objects": [
+        "candles", "flowers", "fruit", "pencils", "Sideshow Bob bobbleheads"
+    ],
 }
 
 
