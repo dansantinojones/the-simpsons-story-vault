@@ -146,6 +146,8 @@ def main():
             print("-hrr-    )-.__,-- ||___,--' `-. ")
             print("        /._______,|__________,'\ ")
             print("        `--.____,'|_________,-'\n\n")
+
+            print(Click 'Run Program' button to restart.)
             break
 
         else:
@@ -265,10 +267,8 @@ def lisa_story():
     print(
         f"Today my school teacher, Mrs {food}, announced that instead of studying")
     print(f"{subject} today, we are going on a class field trip to {location}. Instead of going on the")
-    print(
-        f"school bus we are travelling by {transport}. On the way there we did our English lessons, ")
-    print(
-        f"she read a poem about {thing2} by {character2}. When we finally arrived our tour ")
+    print(f"school bus we are travelling by {transport}. On the way there we did our English lessons, ")
+    print(f"she read a poem about {thing2} by {character2}. When we finally arrived our tour ")
     print(f"guide {character1} showed us around. We learned how to {activity} and got to sketch pictures of {thing1}.\n\n")
 
 
@@ -304,11 +304,9 @@ def bart_story():
     print("         /\n\n")
 
     print("Halloween in Springfield is my favourite time of year. Me and Lisa went trick-or-teating as it went dark.")
-    print(
-        f"I dressed up as a scary {thing2} and Lisa dressed up as {colour} zombie. The first house was answered by ")
+    print(f"I dressed up as a scary {thing2} and Lisa dressed up as {colour} zombie. The first house was answered by ")
     print(f"{character2} who gave us {food}. The next few houses gave us candy, we had {number} in total.")
-    print(
-        f"When we reached the spooky {location} I tip-toed to the door and just as I was about to knock the door, ")
+    print(f"When we reached the spooky {location} I tip-toed to the door and just as I was about to knock the door, ")
     print(f"{character1} answered the door. When I realised who it was I screamed “eat my shorts!”")
     print("and we ran back laughing the whole way home.\n\n")
 
