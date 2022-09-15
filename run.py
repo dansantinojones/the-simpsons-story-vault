@@ -274,12 +274,17 @@ def lisa_story():
     print("       ooooooooooo ")
     print("      /           \ \n")
 
-    print(
-        f"Today my school teacher, Mrs {food}, announced that instead of studying")
-    print(f"{subject} today, we are going on a class field trip to {location}. Instead of going on the")
-    print(f"school bus we are travelling by {transport}. On the way there we did our English lessons, ")
-    print(f"she read a poem about {thing2} by {character2}. When we finally arrived our tour ")
-    print(f"guide {character1} showed us around. We learned how to {activity} and got to sketch pictures of {thing1}.\n\n")
+    print(f"Today my school teacher, Mrs {food}, 
+    print(f'announced that instead of studying {subject} today,")
+    print(f"we are going on a class field trip to")
+    print(f"{location}. Instead of going on the")
+    print(f"school bus we are travelling by {transport}.")
+    print(f"On the way there we did our English lessons, she read")
+    print(f"a poem about {thing2} by {character2}.") 
+    print(f"When we finally arrived our tour guide")
+    print(f"{character1} showed us around. ")
+    print(f"We learned how to {activity} and got to ")
+    print(f"sketch pictures of {thing1}.\n\n")
 
 
 def bart_story():
