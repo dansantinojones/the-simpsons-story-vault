@@ -232,11 +232,16 @@ def marge_story():
     print(" /      ;  ,'  /              \        ` ")
     print("/      / ,'   /                \ \n\n")
 
-    print(f"Kids we have visitors coming round for dinner so I want you back from the {location} at 6pm.")
-    print(f"Mmm-mmmmm I hope they like the {food} I have prepared, I have spent {number} hours cooking this.")
-    print(f"{character1} can sit next to Bart and I think I’ll place {character2} next to Homie.")
-    print(f"I hope they don’t bring their {adjective} {animal} or there won’t be enough food to go round.")
-    print(f"I am so {emotion} to see them, the saddest thing is seeing a family broken apart.\n\n")
+    print(f"Kids we have visitors coming round for dinner so")
+    print(f"I want you back from the {location} at 6pm.")
+    print(f"Mmm-mmmmm I hope they like the {food} I have prepared,")
+    print(f"I have spent {number} hours cooking this.")
+    print(f"{character1} can sit next to Bart and I think I’ll") 
+    print(f"place {character2} next to Homie.")
+    print(f"I hope they don’t bring their {adjective} {animal}")
+    print(f"or there won’t be enough food to go round.")
+    print(f"I am so {emotion} to see them, the saddest thing")
+    print(f"is seeing a family broken apart.\n\n")
 
 
 def lisa_story():
