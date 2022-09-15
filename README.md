@@ -83,7 +83,7 @@ To align with the user stories, I wanted to ensure the design reflected the Simp
 3. As a visitor, I want a choice of words from multiple categories, relating to the story and Simpsons theme. 
 * The user will get the choice of multiple words from numerous categories. Some categories are Simpsons themed (Characters, Food, Location etc). The words chosen will then be used to create a story.
 
-![]()
+![Words](assets/images/words.png)
 
 4. As a visitor, I want to create and read stories based on The Simpsons.
 * After selection of words, a story based on one of the main Simpsons characters is generated which include the users words they have chosen. A picture of the character is displayed for visual effect. 
