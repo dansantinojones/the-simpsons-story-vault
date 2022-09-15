@@ -1,6 +1,6 @@
 import time
 import colorama
-from colorama import Fore, Back, Style
+from colorama import Fore
 colorama.init()
 
 
@@ -211,15 +211,15 @@ def homer_story():
 
     print(f"I was woken up to a call from {celebrity} saying I ")
     print(f"have won {number} hundred dollars on the lottery... ")
-    print(f"But I don’t do the lottery... Oh well free money woo hoo!")
-    print(f"When I first went down for breakfast my favourite ")
+    print("But I don’t do the lottery... Oh well free money woo hoo!")
+    print("When I first went down for breakfast my favourite ")
     print(f"{food} was replaced by {objects}... 'Hmmm strange'.")
     print(f"D’oh my toothpaste had been replaced with {liquid}.")
-    print(f"After putting on my clothes I received another call,")
+    print("After putting on my clothes I received another call,")
     print(f"this time from {character1} telling me I had the day ")
-    print(f"off from work woo hoo! I then heard a familiar laugh…")
+    print("off from work woo hoo! I then heard a familiar laugh…")
     print("It was Bart, he shouted 'April fools!!!' ")
-    print(f"I screamed 'why you little!' before choking him.")
+    print("I screamed 'why you little!' before choking him.")
     print(f"Boy did I feel {emotion}.\n\n")
 
     time.sleep(10)
@@ -270,16 +270,16 @@ def marge_story():
 
     time.sleep(1)
 
-    print(f"Kids we have visitors coming round for dinner so")
+    print("Kids we have visitors coming round for dinner so")
     print(f"I want you back from the {location} at 6pm.")
     print(f"Mmm-mmmmm I hope they like the {food} I have prepared,")
     print(f"I have spent {number} hours cooking this.")
     print(f"{character1} can sit next to Bart and I think I’ll")
     print(f"place {character2} next to Homie.")
     print(f"I hope they don’t bring their {adjective} {animal}")
-    print(f"or there won’t be enough food to go round.")
+    print("or there won’t be enough food to go round.")
     print(f"I am so {emotion} to see them, the saddest thing")
-    print(f"is seeing a family broken apart.\n\n")
+    print("is seeing a family broken apart.\n\n")
 
     time.sleep(10)
 
@@ -332,12 +332,12 @@ def lisa_story():
 
     print(f"Today my school teacher, Mrs {colour},")
     print(f"announced that instead of studying {subject} today,")
-    print(f"we are going on a class field trip to")
+    print("we are going on a class field trip to")
     print(f"{location}. Instead of going on the")
     print(f"school bus we are travelling by {transport}.")
-    print(f"On the way there we did our English lessons, she read")
+    print("On the way there we did our English lessons, she read")
     print(f"a poem about {thing2} by {character2}.")
-    print(f"When we finally arrived our tour guide")
+    print("When we finally arrived our tour guide")
     print(f"{character1} showed us around. ")
     print(f"We learned how to {activity} and got to ")
     print(f"sketch pictures of {thing1}.\n\n")
@@ -390,18 +390,18 @@ def bart_story():
 
     time.sleep(1)
 
-    print(f"Halloween in Springfield is my favourite time of year.")
-    print(f"Me and Lisa went trick-or-teating as it went dark.")
+    print("Halloween in Springfield is my favourite time of year.")
+    print("Me and Lisa went trick-or-teating as it went dark.")
     print(f"I dressed up as a scary {thing2} and ")
     print(f"Lisa dressed up as {colour} zombie. ")
-    print(f"The first house was answered by ")
+    print("The first house was answered by ")
     print(f"{character2} who gave us {food}. ")
     print(f"The next few houses gave us candy, we had {number}")
-    print(f"in total. When we reached the spooky")
+    print("in total. When we reached the spooky")
     print(f"{location} I tip-toed ")
-    print(f"to the door and just as I was about to knock the door, ")
+    print("to the door and just as I was about to knock the door, ")
     print(f"{character1} answered the door. When I realised who")
-    print(f"it was I screamed “eat my shorts!”")
+    print("it was I screamed “eat my shorts!”")
     print("and we ran back laughing the whole way home.\n\n")
 
     time.sleep(10)
