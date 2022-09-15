@@ -101,6 +101,10 @@ The program was tested across multiple browsers to ensure the program runs corre
 * Chrome 
 * Safari (The app is visable but is not responsive)
 
+## Validation
+After running my code through the PEP8 Validator, it returned 6 errors. The errors indicated that some lines in the dictionary were too long. 
+
+![PEP8 Validator Errors](assets/images/validator.png)
 
 ## Deployment
 This project was deployed using Heroku, committed to git and pushed to GitHub using git commands.
