@@ -274,8 +274,8 @@ def lisa_story():
     print("       ooooooooooo ")
     print("      /           \ \n")
 
-    print(f"Today my school teacher, Mrs {food}, 
-    print(f'announced that instead of studying {subject} today,")
+    print(f"Today my school teacher, Mrs {food},") 
+    print(f"announced that instead of studying {subject} today,")
     print(f"we are going on a class field trip to")
     print(f"{location}. Instead of going on the")
     print(f"school bus we are travelling by {transport}.")
@@ -318,11 +318,18 @@ def bart_story():
     print("          /    `-----'     \ ")
     print("         /\n\n")
 
-    print("Halloween in Springfield is my favourite time of year. Me and Lisa went trick-or-teating as it went dark.")
-    print(f"I dressed up as a scary {thing2} and Lisa dressed up as {colour} zombie. The first house was answered by ")
-    print(f"{character2} who gave us {food}. The next few houses gave us candy, we had {number} in total.")
-    print(f"When we reached the spooky {location} I tip-toed to the door and just as I was about to knock the door, ")
-    print(f"{character1} answered the door. When I realised who it was I screamed “eat my shorts!”")
+    print(f"Halloween in Springfield is my favourite time of year.")
+    print(f"Me and Lisa went trick-or-teating as it went dark.")
+    print(f"I dressed up as a scary {thing2} and ")
+    print(f"Lisa dressed up as {colour} zombie. ")
+    print(f"The first house was answered by ")
+    print(f"{character2} who gave us {food}. ")
+    print(f"The next few houses gave us candy, we had {number}") 
+    print(f"in total. When we reached the spooky")
+    print(f"{location} I tip-toed ")
+    print(f"to the door and just as I was about to knock the door, ")
+    print(f"{character1} answered the door. When I realised who") 
+    print(f"it was I screamed “eat my shorts!”")
     print("and we ran back laughing the whole way home.\n\n")
 
 
