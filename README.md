@@ -35,7 +35,8 @@ I decided to create a story generator game for children with a theme to help chi
 ## User Stories
 1. As a new visitor, I want to navigate the terminal with ease.
 2. As a visitor, I want to exit the program after finishing playing. 
-3. As a visitor, I want to create and read stories based on The Simpsons. 
+3. As a visitor, I want a choice of words from multiple categories, relating to the story and Simpsons theme.
+4. As a visitor, I want to create and read stories based on The Simpsons. 
 
 ## The Skeleton
 The program had only one page in the terminal. The terminal game is not responsive to users. As it is only one page I used a flow chart instead of wireframes. 
@@ -79,7 +80,12 @@ To align with the user stories, I wanted to ensure the design reflected the Simp
 ![Exit Image](assets/images/exit-1.png)
 ![Exit Message](assets/images/exit-2.png)
 
-3. As a visitor, I want to create and read stories based on The Simpsons.
+3. As a visitor, I want a choice of words from multiple categories, relating to the story and Simpsons theme. 
+* The user will get the choice of multiple words from numerous categories. Some categories are Simpsons themed (Characters, Food, Location etc). The words chosen will then be used to create a story.
+
+![]()
+
+4. As a visitor, I want to create and read stories based on The Simpsons.
 * After selection of words, a story based on one of the main Simpsons characters is generated which include the users words they have chosen. A picture of the character is displayed for visual effect. 
 
 ![Story Image](assets/images/story-1.png)
