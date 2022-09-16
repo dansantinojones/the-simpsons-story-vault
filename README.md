@@ -39,7 +39,7 @@ I decided to create a story generator game for children with a theme to help chi
 4. As a visitor, I want to create and read stories based on The Simpsons. 
 
 ## The Skeleton
-The program had only one page in the terminal. The terminal game is not responsive to users. As it is only one page I used a flow chart instead of wireframes. 
+The program had only one page in the terminal. As it is only one page I used a flow chart instead of wireframes. 
 
 ![Flow Chart](assets/images/flow-chart.png)
 
@@ -52,14 +52,14 @@ To achieve my goal, I included the following features:
 3. A list of words (foods, animals, adjectives etc) for the user to select which are then returned into the stories.
 4. The user can exit the game.
 
+### Things to implement: 
+* Three stories per character.
+* More words in the dictionary for the user to choose from.
+
 ## Design
 To align with the user stories, I wanted to ensure the design reflected the Simpsons theme. Therefore, images of the characters were used above the stories. Colorama was installed to change the colour of the text to yellow which ensures the program is on brand as the Simpsons are known for their yellow skin. 
 
 For a better user experience, I imported time. This allows me to add a time break to control how quick the content appears in the terminal. The time.sleep(10) after the story means that once the story has loaded 10 seconds will pass before the next section appears, giving the user time to read the story.
-
-### Things to implement: 
-* Three stories per character.
-* More words in the dictionary for the user to choose from.
 
 ## Technologies Used 
 * [Gitpod](https://gitpod.io/workspaces) was used to write the code for the program. 
@@ -77,7 +77,7 @@ For a better user experience, I imported time. This allows me to add a time brea
 ![Introduction Message](assets/images/intro-2.png)
 
 2. As a visitor, I want to exit the program after finishing playing. 
-* The user has the option to select number 5 to exit the program.
+* The user has the option to select number 5 to exit the program. A message is displayed instructing the user how to restart if they wish to play again.
 
 ![Exit Image](assets/images/exit-1.png)
 ![Exit Message](assets/images/exit-2.png)
@@ -94,13 +94,14 @@ For a better user experience, I imported time. This allows me to add a time brea
 ![Story](assets/images/story-2.png)
 
 ### Additional Testing 
-* Throughout the project I used the PEP8 validator to confirm my code is bug free.
-* I continuously tested the code in the terminal in Gitpod.
+* I used the PEP8 validator to confirm my code is bug free.
+* Throughout the project I tested the code in the terminal in Gitpod.
 * I tested the program using the Heroku terminal to ensure the final outcome worked correctly.
 
 ## Compatibility
 The program was tested across multiple browsers to ensure the program runs correctly for users to use. The program was tested on desktop and mobile. 
 * Chrome 
+* Internet Explorer
 * Safari (The app is visable but is not responsive)
 
 ## Validation
